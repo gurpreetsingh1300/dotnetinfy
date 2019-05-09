@@ -48,6 +48,69 @@ namespace QuickKartDataAccessLayer
             }
             return lstCategories;
         }
+        public bool AddCategoryUsingLinq(string categoryName)
+        {
+            bool status = false;
+            try
+            {
+                Category category = new Category();
+                category.CategoryName = categoryName;
+                Context.Categories.Add(category);
+                Context.SaveChanges();
+                status = true;
+            }
+            catch (Exception)
+            {
+                status = false;
+            }
+            return status;
+        }
+        public int UpdateCategoryUsingLinq(byte categoryId, string categoryName)
+        {
+            int status = -1;
+            try
+            {
+                //using Find()
+                Category category = Context.Categories.Find(categoryId); //note ... find uses primary key 
+                //using query expression
+                //var category = (from ctgry in Context.Categories where ctgry.CategoryId == categoryId select ctgry).FirstOrDefault<Category>();
+                //using lambda expression
+                //Category category = Context.Categories.Where(e => e.CategoryId == categoryId).FirstOrDefault<Category>();
+                if (category != null)
+                {
+                    category.CategoryName = categoryName;
+                    Context.SaveChanges();
+                    status = 1;
+                }
+                else
+                {
+                    status = 0;
+                }
+            }
+            catch (Exception)
+            {
+                status = -2;
+            }
+            return status;
+        }
+        public bool DeleteCategory(byte categoryId)
+        {
+            bool status = false;
+            try
+            {
+                var category = (from ctgry in Context.Categories
+                                where ctgry.CategoryId == categoryId
+                                select ctgry).FirstOrDefault<Category>();
+                Context.Categories.Remove(category);
+                Context.SaveChanges();
+                status = true;
+            }
+            catch (Exception)
+            {
+                status = false;
+            }
+            return status;
+        }
 
     }
 }
