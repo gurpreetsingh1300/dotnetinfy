@@ -384,134 +384,134 @@ namespace QuickKartConsole
         
         public static string GetNextProductId()
         {
-            //QuickKartRepository dal = new QuickKartRepository();
-            //string prodId = dal.GetNextProductIdUsingUFN();
-            //return prodId;
-            return "";
+            QuickKartRepository dal = new QuickKartRepository();
+            string prodId = dal.GetNextProductIdUsingUFN();
+            return prodId;
+            //return "";
         }
 
         public static void AddProduct()
         {
 
-        //    Console.Clear();
-        //    QuickKartRepository dal = new QuickKartRepository();
-        //    Console.WriteLine("\n------------------Add Products----------------\n\n");
-        //    Console.WriteLine("\n\n---Please enter the Product details---\n");
-        //    Validation valObj = new Validation();
-        //c1:
-        //    ShowCategories();
-        //    Console.Write("\n Please choose a CategoryId: ");
-            
-        //    string categoryId = (Console.ReadLine());
+            Console.Clear();
+            QuickKartRepository dal = new QuickKartRepository();
+            Console.WriteLine("\n------------------Add Products----------------\n\n");
+            Console.WriteLine("\n\n---Please enter the Product details---\n");
+            Validation valObj = new Validation();
+        c1:
+            ShowCategories();
+            Console.Write("\n Please choose a CategoryId: ");
 
-        //    if (!valObj.IsNull(categoryId))
-        //    {
-        //        Console.WriteLine("\nCategory Id cannot be NULL");
-        //        goto c1;
+            string categoryId = (Console.ReadLine());
 
-        //    }
-        //    if (!valObj.IsByte(categoryId))
-        //    {
-        //        Console.WriteLine("\nCategory Id should be byte data type");
-        //        goto c1;
+            if (!valObj.IsNull(categoryId))
+            {
+                Console.WriteLine("\nCategory Id cannot be NULL");
+                goto c1;
 
-        //    }
-        //    byte catId = Convert.ToByte(categoryId);
-                
-        //c3:
-        //    Console.Write("\n Please enter Product Name: ");
-        //    string productName = Console.ReadLine();
-        //    if (!valObj.IsNull(productName))
-        //    {
-        //        Console.WriteLine("\nProduct Name cannot be NULL");
-        //        goto c3;
+            }
+            if (!valObj.IsByte(categoryId))
+            {
+                Console.WriteLine("\nCategory Id should be byte data type");
+                goto c1;
 
-        //    }
+            }
+            byte catId = Convert.ToByte(categoryId);
 
-        //c4:
-        //    Console.Write("\n Product Price: ");
-        //    string pri = Console.ReadLine();
+        c3:
+            Console.Write("\n Please enter Product Name: ");
+            string productName = Console.ReadLine();
+            if (!valObj.IsNull(productName))
+            {
+                Console.WriteLine("\nProduct Name cannot be NULL");
+                goto c3;
 
-        //    if (!valObj.IsNull(pri))
-        //    {
-        //        Console.WriteLine("\nPrice cannot be NULL");
-        //        goto c4;
+            }
 
-        //    }
-        //    if (!valObj.IsDecimal(pri))
-        //    {
-        //        Console.WriteLine("\nPrice should be decimal datatype");
-        //        goto c4;
+        c4:
+            Console.Write("\n Product Price: ");
+            string pri = Console.ReadLine();
 
-        //    }
-        //    if (!valObj.ValidateGreaterThanZero(pri))
-        //    {
-        //        Console.WriteLine("\nPrice should be greater than zero");
-        //        goto c4;
+            if (!valObj.IsNull(pri))
+            {
+                Console.WriteLine("\nPrice cannot be NULL");
+                goto c4;
 
-        //    }
-        //    decimal price = Convert.ToDecimal(pri);
-        //c5:
-        //    Console.Write("\n Available Quantity: ");
-        //    string qtyAvailable = Console.ReadLine();
-        //    if (!valObj.IsNull(qtyAvailable))
-        //    {
-        //        Console.WriteLine("\nQuantity cannot be NULL");
-        //        goto c5;
+            }
+            if (!valObj.IsDecimal(pri))
+            {
+                Console.WriteLine("\nPrice should be decimal datatype");
+                goto c4;
 
-        //    }
-        //    if (!valObj.IsInteger(qtyAvailable))
-        //    {
-        //        Console.WriteLine("Quantity should be integer datatype");
-        //        goto c5;
+            }
+            if (!valObj.ValidateGreaterThanZero(pri))
+            {
+                Console.WriteLine("\nPrice should be greater than zero");
+                goto c4;
 
-        //    }
-        //    if (!valObj.ValidateGreaterThanZero(qtyAvailable))
-        //    {
-        //        Console.WriteLine("\nQuantity should be greater than zero");
-        //        goto c5;
+            }
+            decimal price = Convert.ToDecimal(pri);
+        c5:
+            Console.Write("\n Available Quantity: ");
+            string qtyAvailable = Console.ReadLine();
+            if (!valObj.IsNull(qtyAvailable))
+            {
+                Console.WriteLine("\nQuantity cannot be NULL");
+                goto c5;
 
-        //    }
+            }
+            if (!valObj.IsInteger(qtyAvailable))
+            {
+                Console.WriteLine("Quantity should be integer datatype");
+                goto c5;
 
-        //    int quantityAvailable = Convert.ToInt32(qtyAvailable);
-        //    string productId = GetNextProductId();
-        //    int result = Convert.ToInt32(dal.AddProductUsingUSP(productId,productName, catId, price, quantityAvailable));
-        //    if (result > 0)
-        //    {
-        //        Console.WriteLine("\n\n You have successfully added this product \n");
-        //    }
-        //    else if (result == -1)
-        //    {
-        //        Console.WriteLine("\n\n Product id can't be null \n");
-        //    }
-        //    else if (result == -2)
-        //    {
-        //        Console.WriteLine("\n\n Product id should start with P \n");
-        //    }
-        //    else if (result == -3)
-        //    {
-        //        Console.WriteLine("\n\n Product name can't be null \n");
-        //    }
-        //    else if (result == -4)
-        //    {
-        //        Console.WriteLine("\n\n Category id can't be null \n");
-        //    }
-        //    else if (result == -5)
-        //    {
-        //        Console.WriteLine("\n\n The Category id you have entered is not valid \n");
-        //    }
-        //    else if (result == -6)
-        //    {
-        //        Console.WriteLine("\n\n The price that you have entered is not valid \n");
-        //    }
-        //    else if (result == -7)
-        //    {
-        //        Console.WriteLine("\n\n The Quantity available is not valid \n");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("\n\n Some error occured..please try again \n");
-        //    }
+            }
+            if (!valObj.ValidateGreaterThanZero(qtyAvailable))
+            {
+                Console.WriteLine("\nQuantity should be greater than zero");
+                goto c5;
+
+            }
+
+            int quantityAvailable = Convert.ToInt32(qtyAvailable);
+            string productId = GetNextProductId();
+            int result = Convert.ToInt32(dal.AddProductUsingUSP(productId, productName, catId, price, quantityAvailable));
+            if (result > 0)
+            {
+                Console.WriteLine("\n\n You have successfully added this product \n");
+            }
+            else if (result == -1)
+            {
+                Console.WriteLine("\n\n Product id can't be null \n");
+            }
+            else if (result == -2)
+            {
+                Console.WriteLine("\n\n Product id should start with P \n");
+            }
+            else if (result == -3)
+            {
+                Console.WriteLine("\n\n Product name can't be null \n");
+            }
+            else if (result == -4)
+            {
+                Console.WriteLine("\n\n Category id can't be null \n");
+            }
+            else if (result == -5)
+            {
+                Console.WriteLine("\n\n The Category id you have entered is not valid \n");
+            }
+            else if (result == -6)
+            {
+                Console.WriteLine("\n\n The price that you have entered is not valid \n");
+            }
+            else if (result == -7)
+            {
+                Console.WriteLine("\n\n The Quantity available is not valid \n");
+            }
+            else
+            {
+                Console.WriteLine("\n\n Some error occured..please try again \n");
+            }
         }
 
         #endregion

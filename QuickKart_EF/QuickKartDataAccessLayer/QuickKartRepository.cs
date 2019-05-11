@@ -111,6 +111,36 @@ namespace QuickKartDataAccessLayer
             }
             return status;
         }
-
+        public List<ufn_GetProductDetails_Result> GetProductsUsingUFN(int categoryId)
+        {
+            List<ufn_GetProductDetails_Result> lstProducts = null;
+            try
+            {
+                lstProducts = Context.ufn_GetProductDetails(categoryId).ToList();
+            }
+            catch (Exception)
+            {
+                lstProducts = null;
+            }
+            return lstProducts;
+        }
+        public string GetNextProductIdUsingUFN()
+        {
+            var productId = Context.Database.SqlQuery<string>("SELECT dbo.ufn_GenerateNewProductId()").FirstOrDefault<string>();
+            return productId;
+        }
+        public int AddProductUsingUSP(string productId, string productName, byte catId, decimal price, int quantityAvailable)
+        {
+            System.Nullable<int> returnValue = 0;
+            try
+            {
+                returnValue = Context.usp_AddProduct(productId, productName, catId, price, quantityAvailable).SingleOrDefault();
+            }
+            catch (Exception)
+            {
+                returnValue = -99;
+            }
+            return Convert.ToInt32(returnValue);
+        }
     }
 }
