@@ -142,5 +142,40 @@ namespace QuickKartDataAccessLayer
             }
             return Convert.ToInt32(returnValue);
         }
+        public bool RegisterUser(string emailID, string userPassword, string gender, System.DateTime dateOfBirth, string address )
+        {
+            bool status = false;
+            try
+            {
+                //var result =Context.usp_RegisterUser(userPassword, gender, emailID, dateOfBirth, address).SingleOrDefault();
+                //if (result.Value == 1)
+                //{
+                //    status = true;
+
+                //}
+                User userObj = new User();
+                Role roleObj = new Role();
+                roleObj.RoleId = 2;
+                roleObj.RoleName = "Customer";
+                userObj.EmailId = emailID;
+                userObj.Address = address;
+                userObj.DateOfBirth = dateOfBirth;
+                userObj.Gender = gender;
+                userObj.Role = roleObj;
+                //userObj.RoleId = roleObj.RoleId;
+                userObj.RoleId = 2;
+                userObj.UserPassword = userPassword;
+                Context.Users.Add(userObj);
+                Context.SaveChanges();
+                status = true;
+            }
+            catch (Exception ex)
+            {
+                var error = ex.Message;
+                status = false;
+            }
+            
+            return status;
+        }
     }
 }
