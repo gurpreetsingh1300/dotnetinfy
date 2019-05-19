@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickKartConsole", "QuickKa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickKartMVCApp", "QuickKartMVCApp\QuickKartMVCApp.csproj", "{A0EFDD45-32D0-4EF1-B00C-5AD00F2F12EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickKartWebService", "QuickKartWebService\QuickKartWebService.csproj", "{BC559743-D44B-45AD-ABE0-0F8418C0841E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A0EFDD45-32D0-4EF1-B00C-5AD00F2F12EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EFDD45-32D0-4EF1-B00C-5AD00F2F12EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EFDD45-32D0-4EF1-B00C-5AD00F2F12EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC559743-D44B-45AD-ABE0-0F8418C0841E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC559743-D44B-45AD-ABE0-0F8418C0841E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC559743-D44B-45AD-ABE0-0F8418C0841E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC559743-D44B-45AD-ABE0-0F8418C0841E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
