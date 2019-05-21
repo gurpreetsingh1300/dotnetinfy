@@ -7,14 +7,16 @@ using QuickKartDataAccessLayer;
 
 namespace QuickKartWebService.Repository
 {
-    public class QuickKartMapper<Source, Destination> : Profile
+    public class QuickKartMapper<Source, Destination> 
         where Source : class
         where Destination : class
     {
         public QuickKartMapper()
         {
-            CreateMap<Product, Models.Product>();
-            CreateMap<Models.Product, Product>();
+            Mapper.Initialize(c => c.AddProfile<MappingProfile>());
+
+            //CreateMap<Product, Models.Product>();
+            //CreateMap<Models.Product, Product>();
 
             //Mapper.Map<Product, Models.Product>(,);
             ////From entity to model
@@ -26,5 +28,13 @@ namespace QuickKartWebService.Repository
         {
             return Mapper.Map<Destination>(obj);
         }
+    }
+    public class MappingProfile : Profile
+    {
+        public MappingProfile()
+        {
+            CreateMap<Product, Models.Product>();
+            CreateMap<Models.Product, Product>();
+    }
     }
 }
