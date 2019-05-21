@@ -70,3 +70,5 @@ G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartWebService\obj\Debug
 G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartWebService\obj\Debug\QuickKartWebService.csproj.CopyComplete
 G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartWebService\obj\Debug\QuickKartWebService.dll
 G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartWebService\obj\Debug\QuickKartWebService.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartWebService\bin\EntityFramework.SqlServer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartWebService\bin\EntityFramework.SqlServer.xml
