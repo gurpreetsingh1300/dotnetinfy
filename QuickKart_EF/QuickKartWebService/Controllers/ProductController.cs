@@ -7,6 +7,7 @@ using System.Web.Http;
 using System.Web.Http.Results;
 using QuickKartDataAccessLayer;
 using QuickKartWebService.Repository;
+using AutoMapper;
 
 namespace QuickKartWebService.Controllers
 {
@@ -49,6 +50,26 @@ namespace QuickKartWebService.Controllers
         // DELETE: api/Product/5
         public void Delete(int id)
         {
+        }
+
+        [HttpGet]
+        public JsonResult<Models.Product> GetProduct(string productId)
+        {
+            try
+            {
+                QuickKartMapper<Product, Models.Product> mapper = new QuickKartMapper<Product, Models.Product>();
+                var dal = new QuickKartRepository();
+                var productObj = dal.GetProductDetails(productId);
+                var product = new Models.Product();
+                product = mapper.Translate(productObj);
+                var product2 = AutoMapper.Mapper.Map<Models.Product>(productObj);
+                return Json<Models.Product>(product2);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
         }
     }
 }

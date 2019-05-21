@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using AutoMapper;
-using QuickKartDataAccessLayer;
 
 namespace QuickKartWebService.Repository
 {
@@ -13,7 +12,7 @@ namespace QuickKartWebService.Repository
     {
         public QuickKartMapper()
         {
-            Mapper.Initialize(c => c.AddProfile<MappingProfile>());
+            //Mapper.Initialize(c => c.AddProfile<MappingProfile>());
 
             //CreateMap<Product, Models.Product>();
             //CreateMap<Models.Product, Product>();
@@ -24,17 +23,13 @@ namespace QuickKartWebService.Repository
             ////From model to entity
             //Mapper.CreateMap<Models.Product, Product>();
         }
+        public static void Initialize()
+        {
+            Mapper.Initialize(c => c.AddProfile<MappingProfile>());
+        }
         public Destination Translate(Source obj)
         {
             return Mapper.Map<Destination>(obj);
         }
-    }
-    public class MappingProfile : Profile
-    {
-        public MappingProfile()
-        {
-            CreateMap<Product, Models.Product>();
-            CreateMap<Models.Product, Product>();
-    }
     }
 }

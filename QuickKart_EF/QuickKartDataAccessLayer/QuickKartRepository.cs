@@ -55,6 +55,13 @@ namespace QuickKartDataAccessLayer
                         select c).ToList<Product>();
             return products;
         }
+        public Product GetProductDetails(string productId)
+        {
+            Product prod = (from p in Context.Products
+                            where p.ProductId == productId
+                            select p).FirstOrDefault<Product>();
+            return prod;
+        }
         public bool AddCategoryUsingLinq(string categoryName)
         {
             bool status = false;
