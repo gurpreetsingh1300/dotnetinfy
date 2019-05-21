@@ -39,7 +39,7 @@ namespace QuickKartMVCApp.Controllers
                 var productObj = response.Content.ReadAsAsync<Models.Product>().Result;
                 return View(productObj);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return View("Error");
             }
