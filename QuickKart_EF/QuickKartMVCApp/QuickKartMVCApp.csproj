@@ -168,6 +168,7 @@
     <Content Include="Views\User\RegisterUser.cshtml" />
     <Content Include="Views\ProductClient\Index.cshtml" />
     <Content Include="Views\ProductClient\Details.cshtml" />
+    <Content Include="Views\ProductClient\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

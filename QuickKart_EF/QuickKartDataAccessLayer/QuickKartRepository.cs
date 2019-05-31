@@ -191,5 +191,18 @@ namespace QuickKartDataAccessLayer
             
             return status;
         }
+        public bool AddProduct(Product product)
+        {
+            try
+            {
+                Context.Products.Add(product);
+                Context.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
     }
 }

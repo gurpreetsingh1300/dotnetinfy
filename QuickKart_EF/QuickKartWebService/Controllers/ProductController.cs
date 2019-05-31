@@ -71,5 +71,23 @@ namespace QuickKartWebService.Controllers
                 return null;
             }
         }
+        [HttpPost]
+        public bool InsertProduct(Models.Product product)
+        {
+            var status = false;
+            try
+            {
+                //var mapper = new QuickKartMapper<Models.Product, Product>();
+                var dal = new QuickKartRepository();                
+                product.ProductId = dal.GetNextProductIdUsingUFN();
+                var entityProduct = AutoMapper.Mapper.Map<Product>(product);
+                status = dal.AddProduct(entityProduct);
+            }
+            catch (Exception ex)
+            {
+                status = false;
+            }
+            return status;
+        }
     }
 }

@@ -19,5 +19,9 @@ namespace QuickKartMVCApp.Repository
         {
             return Client.GetAsync(url).Result;
         }
+        public HttpResponseMessage PostRequest(string url, object model)
+        {
+            return Client.PostAsJsonAsync(url, model).Result;
+        }
     }
 }

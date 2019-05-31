@@ -48,17 +48,26 @@ namespace QuickKartMVCApp.Controllers
         // GET: ProductClient/Create
         public ActionResult Create()
         {
-            return View();
+            try
+            {
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return View("Error");
+            }
         }
 
         // POST: ProductClient/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Models.Product prodObj)
         {
             try
             {
                 // TODO: Add insert logic here
-
+                ServiceRepository serviceObj = new ServiceRepository();
+                HttpResponseMessage response = serviceObj.PostRequest("api/product/InsertProduct", prodObj);
+                response.EnsureSuccessStatusCode();
                 return RedirectToAction("Index");
             }
             catch

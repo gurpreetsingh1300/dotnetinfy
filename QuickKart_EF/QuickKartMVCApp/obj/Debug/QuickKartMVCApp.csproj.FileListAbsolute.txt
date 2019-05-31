@@ -154,3 +154,7 @@ D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartMVCApp\obj\Debug\Quick
 D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartMVCApp\obj\Debug\QuickKartMVCApp.csproj.CopyComplete
 D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartMVCApp\obj\Debug\QuickKartMVCApp.dll
 D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartMVCApp\obj\Debug\QuickKartMVCApp.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartMVCApp\bin\System.Net.Http.Extensions.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartMVCApp\bin\System.Net.Http.Formatting.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartMVCApp\bin\System.Net.Http.Primitives.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartMVCApp\bin\Newtonsoft.Json.dll
