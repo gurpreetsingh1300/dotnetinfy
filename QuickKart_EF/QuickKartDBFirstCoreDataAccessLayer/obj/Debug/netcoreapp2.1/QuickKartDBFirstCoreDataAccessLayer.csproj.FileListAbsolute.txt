@@ -1,0 +1,12 @@
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.deps.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.csproj.CoreCompileInputs.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.AssemblyInfoInputs.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.AssemblyInfo.cs
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.runtimeconfig.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.runtimeconfig.dev.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\bin\Debug\netcoreapp2.1\appsettings.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreDataAccessLayer\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.csprojAssemblyReference.cache

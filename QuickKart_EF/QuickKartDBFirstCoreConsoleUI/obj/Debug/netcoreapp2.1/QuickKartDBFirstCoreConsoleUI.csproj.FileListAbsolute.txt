@@ -1,0 +1,15 @@
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.deps.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.runtimeconfig.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.runtimeconfig.dev.json
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.csprojAssemblyReference.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.csproj.CoreCompileInputs.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.AssemblyInfoInputs.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.AssemblyInfo.cs
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\QuickKartDBFirstCoreDataAccessLayer.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\obj\Debug\netcoreapp2.1\QuickKartDBFirstCoreConsoleUI.csproj.CopyComplete
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDBFirstCoreConsoleUI\bin\Debug\netcoreapp2.1\appsettings.json
