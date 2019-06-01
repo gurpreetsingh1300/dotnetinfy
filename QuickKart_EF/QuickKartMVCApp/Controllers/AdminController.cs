@@ -11,8 +11,9 @@ namespace QuickKartMVCApp.Controllers
         // GET: Admin
         public ActionResult AdminHome()
         {
-            
-            return View();
+
+            //return View();
+            return RedirectToAction("Index", "ProductClient");
         }
     }
 }
