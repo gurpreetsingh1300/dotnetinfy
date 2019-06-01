@@ -77,46 +77,69 @@ namespace QuickKartMVCApp.Controllers
         }
 
         // GET: ProductClient/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(Models.Product product)
         {
-            return View();
+            return View(product);
         }
 
         // POST: ProductClient/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult UpdateProduct(Models.Product product)
         {
             try
             {
-                // TODO: Add update logic here
-
+                ServiceRepository serviceObj = new ServiceRepository();
+                HttpResponseMessage resp = serviceObj.PutRequest("api/Product/UpdateProduct", product);
+                resp.EnsureSuccessStatusCode();
                 return RedirectToAction("Index");
             }
-            catch
+            catch (Exception ex)
             {
                 return View();
             }
         }
 
         // GET: ProductClient/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ProductClient/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(Models.Product product)
         {
             try
             {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
+                return View(product);
             }
-            catch
+            catch (Exception ex)
             {
                 return View();
+            }
+        }
+
+        // POST: ProductClient/Delete/5
+        //[HttpPost]
+        //public ActionResult Delete(int id, FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add delete logic here
+
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
+        [HttpPost]
+        public ActionResult DeleteProduct(Models.Product product)
+        {
+            try
+            {
+                ServiceRepository serviceObj = new ServiceRepository();
+                HttpResponseMessage resp = serviceObj.DeleteRequest("api/Product/DeleteProduct?ProductId=" + product.ProductId);
+                resp.EnsureSuccessStatusCode();
+                return View("Success");
+            }
+            catch (Exception ex)
+            {
+                return View("Error");
             }
         }
     }

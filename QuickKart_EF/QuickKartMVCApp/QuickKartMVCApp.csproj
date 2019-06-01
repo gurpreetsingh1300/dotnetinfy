@@ -169,6 +169,9 @@
     <Content Include="Views\ProductClient\Index.cshtml" />
     <Content Include="Views\ProductClient\Details.cshtml" />
     <Content Include="Views\ProductClient\Create.cshtml" />
+    <Content Include="Views\ProductClient\Edit.cshtml" />
+    <Content Include="Views\Shared\Success.cshtml" />
+    <Content Include="Views\ProductClient\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

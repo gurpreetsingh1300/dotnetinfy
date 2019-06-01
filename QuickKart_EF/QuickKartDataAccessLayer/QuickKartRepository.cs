@@ -204,5 +204,44 @@ namespace QuickKartDataAccessLayer
                 return false;
             }
         }
+        public bool UpdateProduct(Product prod)
+        {
+            bool status = false;
+            try
+            {
+                //var product = (from prdct in Context.Products
+                //               where prdct.ProductId == prod.ProductId
+                //              select prdct).FirstOrDefault<Product>(); //this was using linq
+
+                var product = Context.Products.Find(prod.ProductId);
+                product.ProductName = prod.ProductName;
+                product.Price = prod.Price;
+                product.QuantityAvailable = prod.QuantityAvailable;
+                product.CategoryId = prod.CategoryId;
+                Context.SaveChanges();
+                status = true;
+            }
+            catch (Exception)
+            {
+                status = false;
+            }
+            return status;
+        }
+        public bool DeleteProduct(string productId)
+        {
+            try
+            {
+                Product prodObj = Context.Products.Find(productId);
+
+                Context.Products.Remove(prodObj);
+                Context.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
     }
 }

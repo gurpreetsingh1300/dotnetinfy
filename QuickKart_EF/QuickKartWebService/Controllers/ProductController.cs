@@ -89,5 +89,36 @@ namespace QuickKartWebService.Controllers
             }
             return status;
         }
+
+        [HttpPut]
+        public bool UpdateProduct(Models.Product product)
+        {
+            var status = false;
+            try
+            {                
+                var dal = new QuickKartRepository();
+                status = dal.UpdateProduct(AutoMapper.Mapper.Map<Product>(product));
+            }
+            catch (Exception)
+            {
+                status = false;
+            }
+            return status;
+        }
+        [HttpDelete]
+        public bool DeleteProduct(string productId)
+        {
+            var status = false;
+            try
+            {
+                var dal = new QuickKartRepository();
+                status = dal.DeleteProduct(productId);
+            }
+            catch (Exception ex)
+            {
+                status = false;
+            }
+            return status;
+        }
     }
 }
