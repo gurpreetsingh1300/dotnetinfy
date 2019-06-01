@@ -26,10 +26,10 @@ namespace QuickKartMVCApp.Controllers
             return View();
             
         }
-        [HttpPost]
-        public ActionResult AcceptPin(Models.Pincode pincode)
-        {
-            return RedirectToAction("Index",pincode);
-        }
+        //[HttpPost]
+        //public ActionResult AcceptPin(Models.Pincode pincode)
+        //{
+        //    return RedirectToAction("Index",pincode);
+        //}
     }
 }
