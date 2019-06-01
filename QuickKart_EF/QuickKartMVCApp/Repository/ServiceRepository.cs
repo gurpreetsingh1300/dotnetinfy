@@ -10,10 +10,13 @@ namespace QuickKartMVCApp.Repository
     public class ServiceRepository
     {
         private HttpClient Client { get; set; }
+        public HttpClient PincodeClient { get; set; }
         public ServiceRepository()
         {
             Client = new HttpClient();
             Client.BaseAddress = new Uri(ConfigurationManager.AppSettings["ServiceUrl"].ToString());
+            PincodeClient = new HttpClient();
+            PincodeClient.BaseAddress = new Uri(ConfigurationManager.AppSettings["PincodeServiceUrl"].ToString());
         }
         public HttpResponseMessage GetResponse(string url)
         {
@@ -30,6 +33,10 @@ namespace QuickKartMVCApp.Repository
         public HttpResponseMessage DeleteRequest(string url)
         {
             return Client.DeleteAsync(url).Result;
+        }
+        public HttpResponseMessage GetPincodeResponse(string url)
+        {
+            return PincodeClient.GetAsync(url).Result;
         }
     }
 }
