@@ -1,4 +1,0 @@
-﻿CREATE FUNCTION ufn_GetCategories()
-RETURNS TABLE 
-AS
-	RETURN (SELECT * FROM Categories)

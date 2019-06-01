@@ -1,0 +1,24 @@
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\QuickKartDataAccessLayer.dll.config
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\QuickKartDataAccessLayer.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\QuickKartDataAccessLayer.pdb
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.xml
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.csprojAssemblyReference.cache
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.csproj.CopyComplete
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\QuickKartDataAccessLayer.dll.config
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\QuickKartDataAccessLayer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\QuickKartDataAccessLayer.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.xml
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.csprojAssemblyReference.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.csproj.CoreCompileInputs.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.csproj.CopyComplete
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartDataAccessLayer\obj\Debug\QuickKartDataAccessLayer.pdb

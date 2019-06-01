@@ -1,0 +1,30 @@
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartConsole.exe.config
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartConsole.exe
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartConsole.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartDataAccessLayer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartDataAccessLayer.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartDataAccessLayer.dll.config
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.xml
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.csprojAssemblyReference.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.csproj.CoreCompileInputs.cache
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.csproj.CopyComplete
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.exe
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.pdb
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.SqlServer.dll
+G:\GURPREET SINGH\Study\C#\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.SqlServer.xml
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartConsole.exe.config
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartConsole.exe
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartConsole.pdb
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.SqlServer.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartDataAccessLayer.dll
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartDataAccessLayer.pdb
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\QuickKartDataAccessLayer.dll.config
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.xml
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\bin\Debug\EntityFramework.SqlServer.xml
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.csprojAssemblyReference.cache
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.csproj.CoreCompileInputs.cache
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.csproj.CopyComplete
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.exe
+D:\v-guseth\Practice\new\dotnetinfy\QuickKart_EF\QuickKartConsole\obj\Debug\QuickKartConsole.pdb

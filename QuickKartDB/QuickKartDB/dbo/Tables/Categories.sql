@@ -1,5 +1,0 @@
-﻿CREATE TABLE Categories
-(
-	[CategoryId] TINYINT CONSTRAINT pk_CategoryId PRIMARY KEY IDENTITY,
-	[CategoryName] VARCHAR(20) CONSTRAINT uq_CategoryName UNIQUE NOT NULL 
-)
